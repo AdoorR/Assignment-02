@@ -1,0 +1,54 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nunito&display=swap');
+
+.header{
+    padding-top: 87px;
+    padding-left: 120px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+/* common style  */
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: FFFFFF;
+}
+
+/* First Part  */
+.part-1{
+    display: flex;
+    padding-top: 145px
+    
+}
+.start{
+    font-size: 72px;
+}
+.half-width{
+    width: 582px;
+    height: 270px;
+    padding-left: 120px;
+
+}
+.half-width img{
+    width: 640px;
+    height: 614px;
+    padding-top: -165px;
+    padding-left: 133px;
+    padding-right: 165px;
+
+}
+.p-1{
+    font-size: 25px;
+}
+.now{
+    font-variant: white;
+}
+.angkor{
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgba(255, 0, 43, 0.753);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
