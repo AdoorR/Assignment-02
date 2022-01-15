@@ -4,7 +4,6 @@
 .header{
     padding-top: 87px;
     padding-left: 120px;
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 36px;
@@ -12,23 +11,19 @@
 /* common style  */
 body{
     font-family: 'Nunito', sans-serif;
-    background-color: FFFFFF;
 }
 
 /* First Part  */
 .part-1{
     display: flex;
-    padding-top: 145px
+    padding-top: 140px;
     
 }
 .start{
     font-size: 72px;
 }
 .half-width{
-    width: 582px;
-    height: 270px;
     padding-left: 120px;
-
 }
 .half-width img{
     width: 640px;
@@ -41,14 +36,81 @@ body{
 .p-1{
     font-size: 25px;
 }
-.now{
-    font-variant: white;
-}
 .angkor{
     text-decoration: none;
     font-size: 25px;
-    background-color: rgba(255, 0, 43, 0.753);
+    background-color:#E02C6D;
     color: white;
     border-radius: 30px;
+    padding: 10px 30px;
+}
+
+
+/* logo  */
+.logos{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border-top: rgba(219, 182, 182, 0.356) solid .5px;
+    border-bottom: rgba(219, 182, 182, 0.356) solid .5px;
+    width: 1110px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20%;
+}
+.popu{
+    text-align: center;
+}
+.pic{
+    height: 150%;
+    width: 100%;
+}
+
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #858072;
+}
+
+.courses{
+    display: grid;
+    font-weight: 800;
+    font-size: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+ }
+
+.course{
+    background-color: whitesmoke;
+    border-radius: 7px;  
+    padding: 20px 20px;
+    padding-bottom: 300px;
+    height: 150px;
+    width: 290px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 2px 2px 4px rgba(88, 84, 84, 0.103);
+}
+.font{
+    font-size: 25px;
+}
+.angkorr{
+    text-decoration: none;
+    float: right;
+    margin-top: 33px;
+    font-size: 25px;
+    font-weight: 800;
+    color:#E02C6D;
     padding: 10px 30px;
 }
