@@ -32,13 +32,18 @@ header{
 .half-width{
     padding-left: 120px;
 }
+.animation:hover{
+     transform: scale(1.2);
+     transition: transform 1s ease-in-out;
+     
+    
+}
 .half-width img{
     width: 640px;
     height: 614px;
     padding-top: -165px;
     padding-left: 133px;
     padding-right: 165px;
-
 }
 .p-1{
     font-size: 25px;
@@ -50,6 +55,9 @@ header{
     color: white;
     border-radius: 30px;
     padding: 10px 30px;
+}
+.angkor:hover{
+    background-color: rgb(55, 56, 90);
 }
 
 /* First Part end */
@@ -135,6 +143,10 @@ header{
     color:#E02C6D;
     padding: 10px 30px;
 }
+.angkorr:hover{
+    background-color: #e05f2c98;
+    border-radius: 30px;
+}
 
 .last-img{
     margin-left: 145px;
@@ -158,6 +170,6 @@ footer{
     text-align: center;
     color: whitesmoke;
     height: 250px;
-    padding: 1.5%;
+    padding-top: 1%;
     background-color: rgba(2, 0, 29, 0.945);
 }
