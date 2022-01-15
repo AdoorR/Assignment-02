@@ -63,6 +63,7 @@ body{
 }
 .popu{
     text-align: center;
+    font-size: 35px;
 }
 .pic{
     height: 150%;
@@ -113,4 +114,26 @@ body{
     font-weight: 800;
     color:#E02C6D;
     padding: 10px 30px;
+}
+
+.last-img{
+    margin-left: 145px;
+    width: 640px;
+    height: 414px;
+    border-radius: 15px;
+}
+.last-part{
+    display: flex;
+    margin-top: 155px;
+    margin-bottom: 145px;
+    margin-right: 75px;
+    
+}
+
+footer{
+    text-align: center;
+    color: whitesmoke;
+    height: 250px;
+    padding: 1.5%;
+    background-color: rgba(2, 0, 29, 0.945);
 }
